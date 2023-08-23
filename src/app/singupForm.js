@@ -22,7 +22,7 @@ signupForm.addEventListener("submit", async (e) => {
     const modal = bootstrap.Modal.getInstance(sigupModal);
     modal.hide();
 
-    showMessage("Welcome" + userCredentials.user.email);
+    showMessage("Welcome  " + userCredentials.user.email);
   } catch (error) {
     // console.log(error.message);
     // console.log(error.code);
