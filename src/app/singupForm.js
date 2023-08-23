@@ -22,6 +22,18 @@ signupForm.addEventListener("submit", async (e) => {
 
     modal.hide();
   } catch (error) {
-    console.log(error);
+    // console.log(error.message);
+    // console.log(error.code);
+
+    if (error.code === 'auth/email-already-in-use') {
+      alert("The email address is already in use by another account.");
+    } else if (error.code === 'auth/invalid-email') {
+      alert("The email address is misspelled.");
+    } else if(error.code === 'auth/weak-password') {
+      alert("The password is too weak.");
+    }else if (error.code){
+      alert('something went wrong');
+    }
+
   }
 });
