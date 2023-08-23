@@ -1,5 +1,1 @@
-import './app/firebase.js';
-
-
-
-console.log('Hello World!')
+import "./app/singupForm.js";
