@@ -12,6 +12,8 @@ FIREBASE es básicamente un servicio en la nube de Google, lo que significa que 
 - Característica 3: guardar registros en la plataforma de Firebase con el servicio de Auth.: https://console.firebase.google.com/
 - Caracteristica 4: Uso de estilos con framework Bootstrap: https://getbootstrap.com/
 - Caracteristica 5: Uso de estilos para alerts con librería Toastify JS: https://apvarun.github.io/toastify-js/#
+- Característica 6: Carga de informacion en Firestore basedata con elementos mostrados en interfaz .
+- Característica 7: Uso de Firebase Hosting para el deploy de la App.
 
 
 
