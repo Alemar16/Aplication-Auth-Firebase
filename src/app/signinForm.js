@@ -12,7 +12,7 @@ signinForm.addEventListener("submit", async (e) => {
 
   try {
     const credentials = await signInWithEmailAndPassword(auth, email, password);
-    console.log(credentials);
+    //console.log(credentials);
 
     const modal = bootstrap.Modal.getInstance(
       document.querySelector("#singinModal")

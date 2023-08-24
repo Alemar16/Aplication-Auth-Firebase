@@ -6,5 +6,5 @@ const logout = document.querySelector("#logout");
 logout.addEventListener("click", async (e) => {
   //console.log("logout");
   await signOut(auth);
-  console.log("user signed out");
+  //console.log("user signed out");
 });
