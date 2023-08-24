@@ -23,6 +23,6 @@ FIREBASE es básicamente un servicio en la nube de Google, lo que significa que 
 
 
 ## Uso
-1. solo debes ingresar a este enlace: https://to-do-with-firebase.vercel.app/
+1. solo debes ingresar a este enlace: https://fir-app-auth-3cd42.web.app/
 
 ![Capturas de la Aplicación]()
